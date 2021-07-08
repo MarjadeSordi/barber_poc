@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const CoverPoc = styled.div`
-  height: 100vh;
+  height: 90vh;
   display: flex; 
   align-items: center;
   justify-content: center; 
@@ -11,7 +11,7 @@ export const CoverPoc = styled.div`
 export const ImgLogo = styled.img`
   width: 60%; 
   @media (max-width: 500px){
-    width: 80%;
+    width: 100%;
   }
    `
 
@@ -44,7 +44,7 @@ transition: all 150ms ease-in-out;
   color:#D929AB;
  }
  @media (max-width: 500px) {
-  width: 70%;
+  width: 80%;
   margin-left: 0;
 
 `
